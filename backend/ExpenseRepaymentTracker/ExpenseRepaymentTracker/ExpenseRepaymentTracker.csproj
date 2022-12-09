@@ -12,4 +12,14 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers" />
+      <Folder Include="logs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contracts\Contracts.csproj" />
+      <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
+    </ItemGroup>
+
 </Project>
