@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H/Kuu44iGGvtG4AXJVCA0A0N8D2kp96E0qkDa1UbOmUZaI5FZ0t+oHz83uiUGht+fqCJN3PGDcC8TSLWDRGhnA==",
+  "dgSpecHash": "9h/3IoTkYx56gR5Li12PuGwKqHW8COjmhMSF2xvvbfwajJdNVSq++BghGlnwjum5WOh8mPkzsW1ioF/wxRjkGQ==",
   "success": true,
   "projectFilePath": "D:\\Documents\\Projects\\expense-repayment-tracker\\backend\\ExpenseRepaymentTracker\\ExpenseRepaymentTracker\\ExpenseRepaymentTracker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jamie\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\jamie\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

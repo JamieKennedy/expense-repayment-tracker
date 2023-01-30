@@ -5,6 +5,9 @@ using LoggerService;
 using Microsoft.AspNetCore.Identity;
 using Repository;
 using Microsoft.EntityFrameworkCore;
+using Repository.Contracts;
+using Service;
+using Service.Contracts;
 
 namespace ExpenseRepaymentTracker.Extensions
 {
@@ -43,6 +46,17 @@ namespace ExpenseRepaymentTracker.Extensions
                 })
                 .AddEntityFrameworkStores<RepositoryContext>()
                 .AddDefaultTokenProviders();
+
+        }
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
+        }
+
+        public static void ConfigureServiceManager(this IServiceCollection services)
+        {
+            services.AddScoped<IServiceManager, ServiceManager>();
         }
     }
 }
