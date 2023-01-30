@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.ConfigureLoggerService();
+builder.Services.ConfigureSqlContext(builder.Configuration);
+
 builder.Services.AddApiVersioning(options =>
 {
     options.DefaultApiVersion = ApiVersion.Default;
