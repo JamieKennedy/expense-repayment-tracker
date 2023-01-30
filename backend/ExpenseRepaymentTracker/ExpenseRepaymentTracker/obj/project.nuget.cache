@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yuj0fBivG43q9izlW1JHQ0iGPqMPWem7djpsJmynpA8ykyV8jn+/xD1xNjtmb3lTDjUrT8stKh62am/+A0KOzg==",
+  "dgSpecHash": "R7N2XUsPo97Ps7hEgAzIuX80orWegSFnrriF9RpZRrYGscAsgdklOWUd6NsO/OiVUup1C80tTeWJkNgdxAxWXQ==",
   "success": true,
   "projectFilePath": "D:\\Documents\\Projects\\expense-repayment-tracker\\backend\\ExpenseRepaymentTracker\\ExpenseRepaymentTracker\\ExpenseRepaymentTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jamie\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\jetbrains.annotations\\2022.3.1\\jetbrains.annotations.2022.3.1.nupkg.sha512",
+    "C:\\Users\\jamie\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\jamie\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
