@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{FB868DC2-B94F-48CF-B1E3-D2DC4BC4DF69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{87239CAD-3151-4352-B10E-FB87D02A26D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FB868DC2-B94F-48CF-B1E3-D2DC4BC4DF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB868DC2-B94F-48CF-B1E3-D2DC4BC4DF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB868DC2-B94F-48CF-B1E3-D2DC4BC4DF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87239CAD-3151-4352-B10E-FB87D02A26D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87239CAD-3151-4352-B10E-FB87D02A26D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87239CAD-3151-4352-B10E-FB87D02A26D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87239CAD-3151-4352-B10E-FB87D02A26D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
