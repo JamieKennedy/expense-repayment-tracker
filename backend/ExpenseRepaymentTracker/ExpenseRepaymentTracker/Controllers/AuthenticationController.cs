@@ -34,5 +34,18 @@ namespace ExpenseRepaymentTracker.Controllers
             return StatusCode(201);
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Authenticate([FromBody] UserAuthenticationDto user)
+        {
+            if (!await _serviceManager.AuthenticationService.AuthenticateUser(user))
+            {
+                return Unauthorized();
+            }
+
+            var token = await _serviceManager.AuthenticationService.CreateToken();
+
+            return Ok(new { Token = token });
+        }
+
     }
 }

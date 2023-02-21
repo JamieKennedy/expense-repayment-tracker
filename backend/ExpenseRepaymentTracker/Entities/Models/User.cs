@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Entities.Authentication;
+using Microsoft.AspNetCore.Identity;
 
 namespace Entities.Models
 {
@@ -6,5 +7,6 @@ namespace Entities.Models
     {
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
+        public RefreshToken RefreshToken { get; set; }
     }
 }

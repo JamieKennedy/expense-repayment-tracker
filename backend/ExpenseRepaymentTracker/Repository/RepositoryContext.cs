@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Authentication;
+using Entities.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Repository.Configuration;
@@ -17,5 +18,7 @@ namespace Repository
 
             builder.ApplyConfiguration(new RoleConfiguration());
         }
+
+        public DbSet<RefreshToken>? RefreshTokens { get; set; }
     }
 }
